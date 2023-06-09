@@ -1,0 +1,22 @@
+.staking_buttos {
+  width: 12.5rem;
+}
+.visiblity-hideme {
+  visibility: hidden;
+}
+#loader-gif {
+  height: 10vh !important;
+  background: none !important;
+}
+.loading-imageCnt {
+  display: flex;
+  flex-flow: column;
+}
+.loading-imageCnt .ldg-img {
+  width: 16%;
+  margin: 0px auto;
+  margin-top: 16px;
+}
+.loading-imageCnt .ldg-txt {
+  margin: 10px 0px 0px 0px;
+}

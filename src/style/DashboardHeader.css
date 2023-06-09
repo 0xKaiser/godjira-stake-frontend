@@ -1,0 +1,101 @@
+.wallet-detail1 {
+  background: linear-gradient(
+    180deg,
+    rgba(28, 51, 103, 0.9) 0%,
+    rgba(9, 21, 47, 0) 100%
+  );
+  border-radius: 10px;
+  padding: 30px;
+  width: 20rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+.wallet-detail2 {
+  background: linear-gradient(
+    180deg,
+    rgba(28, 51, 103, 0.9) 0%,
+    rgba(9, 21, 47, 0) 100%
+  );
+  border-radius: 10px;
+  padding: 30px;
+  width: 25rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+.wallet-detail3 {
+  background: linear-gradient(
+    180deg,
+    rgba(28, 51, 103, 0.9) 0%,
+    rgba(9, 21, 47, 0) 100%
+  );
+  border-radius: 10px;
+  padding: 30px;
+  width: 26rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+.question {
+  height: 1.4rem;
+  width: 1.4rem;
+  margin: 0 0 1px 6px;
+}
+
+.daashboardButton {
+  font-size: 1.4rem;
+  height: 3.2rem;
+  margin: 0 0 0 3rem;
+  border: 3px solid #00ffff;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #fff;
+}
+.wallet {
+  color: #00ffff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+}
+.tokenInfo {
+  font-family: "Ubuntu", sans-serif;
+  color: #00ffff;
+  font-size: 1.3rem;
+}
+.link {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+  position: relative;
+  top: -10px;
+}
+
+.time {
+  font-size: 14px;
+  color: #00ffff;
+}
+.tokenreward {
+  font-size: 2rem;
+}
+.dashboardHeaderContainer {
+  display: flex;
+  margin: 0 1rem;
+  justify-content: center;
+}
+
+  .modalDetails{
+      position: relative;
+  }
+
+  .arrow-down {
+      margin-top: 8px;
+      position: absolute;
+      width: 0; 
+      height: 0; 
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      right: 12.6rem;
+      border-top: 13px solid #2cfeff;
+  }
+  

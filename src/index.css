@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background: url(./assets/bg.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-grrenery {
+  font-family: "Ubuntu", sans-serif;
+  color: #00ffff;
+}
+.text-grreneryRoboto {
+  font-family: "Roboto", sans-serif;
+  color: #00ffff;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-white {
+  font-family: "Roboto", sans-serif;
+}
+@font-face {
+  font-family: "Osake";
+  src: local("Osake"), url("./assets/Osake.otf") format("truetype");
+  font-weight: bold;
+}
+.border-white {
+  border: 3px solid #fff;
+}
+.clicked {
+  border: 3px solid #00ffff !important;
+  border-radius: 15px !important;
+}
+.light_button {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  outline: 0;
+  border: 3px solid #09769a;
+  color: #8885a9;
+}
+
+.light_button:hover {
+  transition: 0.3s;
+  background-color: #09769a;
+  border: 2px solid #182b59;
+  color: #8885a9;
+}
+.red-border {
+  border: 3px solid red !important;
+  border-radius: 15px !important;
+}
+.clickeds {
+  border: 3px solid #fff !important;
+  border-radius: 15px !important;
+}
+.boxz {
+  /* width: 6rem;
+  height: 3rem; */
+}
+.click {
+  border: 2px solid transparent !important;
+  border-radius: 15px !important;
+}
+.top-right {
+  cursor: pointer;
+  right: 15px;
+  top: -12rem;
+}
+@media (max-width: 600px) {
+  .dasboardContainer {
+    flex-direction: column;
+  }
+  .dashboardHeaderContainer {
+    flex-direction: column;
+  }
+  .dashboardMain {
+    flex-direction: column;
+  }
+  .dashboardHeadings {
+    flex-direction: column;
+  }
+  .godjiraContainer {
+    flex-direction: column;
+  }
+  .wallet-detail1 {
+    width: 100%;
+  }
+  .wallet-detail2 {
+    width: 100%;
+  }
+  .wallet-detail3 {
+    width: 100%;
+  }
+}
+.center-block {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+}
